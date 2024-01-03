@@ -1,0 +1,74 @@
+/* .job_form_outside {
+    
+} */
+
+.job_form {
+    position: relative;
+    width: 600px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    /* margin-top: 50px; */
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    padding: 20px;
+    padding-top: 30px;
+    height: fit-content;
+    background-color: white;
+    /* top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+}
+
+.job_form_hid {}
+
+.main_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.ed_box {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    position: relative;
+}
+
+.ed_box6 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.ed_box7 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.checkbox {
+    display: flex;
+    font-size: 14px;
+    /* border: 1px solid black; */
+
+}
+
+.checkbox input {
+    width: 15px;
+    margin-right: 10px;
+    margin-left: 2px;
+    /* margin-bottom: 20px; */
+}
+
+.textarea textarea {
+    height: 150px;
+    padding: 10px;
+}
+
+.btn_box {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    margin-bottom: 10px
+}
+

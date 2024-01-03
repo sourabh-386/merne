@@ -1,0 +1,59 @@
+.register1 {
+  /* padding: 0px 20px; */
+  width: 100%;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 10px 25px;
+}
+
+
+
+
+
+.__register_1och9_1_jduwc_51 {
+  border: none;
+  /* border: 1px solid rgba(80, 80, 80, 0.233) !important; */
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+
+
+}
+
+._register_1och9_1 div {
+  border: none !important;
+}
+
+
+.password_box {
+  position: relative;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+}
+
+.checkbox input {
+  margin-right: 10px;
+  margin-left: 4px;
+}
+
+.password_box {
+  position: relative;
+  /* border: 1px solid black; */
+}
+
+/* .password_box input{
+  position: absolute;
+ } */
+
+.eye {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 0.7;
+  cursor: pointer;
+}

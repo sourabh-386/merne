@@ -1,0 +1,21 @@
+.main_box{
+    height: fit-content;
+}
+.checkbox_div{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+.checkbox_div_inner {
+    margin-right: 5px;
+    /* margin-top: 5px; */
+    /* border-radius: 10px; */
+}
+.input_label_extra{
+    font-size: 11px;
+    margin-left: 10px;
+}

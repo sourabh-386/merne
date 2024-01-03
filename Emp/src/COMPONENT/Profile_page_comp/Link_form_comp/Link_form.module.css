@@ -1,0 +1,34 @@
+.emp_skills {
+    /* border: 1px solid red; */
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.links {
+    margin-top: 2vh;
+    min-width: 800px;
+    padding: 20px;
+}
+
+.btn_box {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    /* padding-right: 40px; */
+}
+
+/* .btn_box button{
+    background-color: #007fbc;
+color: White;
+border: none;
+padding: 4px 8px;
+cursor: pointer;
+border-radius: 4px;
+} */
+
+.cross {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}

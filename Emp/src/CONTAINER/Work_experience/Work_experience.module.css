@@ -1,0 +1,28 @@
+.form{
+    /* border: 1px solid red; */
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+    padding-bottom: 10vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    top: 0%;
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+    z-index: 6;
+    /* margin-bottom: 100px; */
+  
+  }
+  
+  .form_hid {
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    top: -110%;
+    /* display: flex; */
+  
+  }

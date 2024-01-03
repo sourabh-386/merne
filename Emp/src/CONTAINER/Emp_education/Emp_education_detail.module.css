@@ -1,0 +1,108 @@
+.education {
+  padding: 20px 10px;
+  /* padding-top: 50px; */
+  /* color: white; */
+
+
+}
+
+.form {
+  left: 10px;
+}
+
+.add_education {
+  padding: 8px 10px;
+  width: fit-content;
+  font-size: 16px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--main-color);
+  color: white;
+  /* margin-right: 15px; */
+  /* margin-top: 40px; */
+}
+
+.add_education:hover {
+  transform: translate3D(0, -1px, 0) scale(1.1);
+  transition: all 0.3s ease-in-out;
+
+}
+
+.educatinal_details {
+  width: 100%;
+  /* height: 50vh; */
+  min-height: 40vh;
+  /* border: 1px solid red; */
+  position: relative;
+  padding-top: 10px;
+}
+
+
+.btn_box {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: end;
+  position: relative;
+  /* border: 1px solid black; */
+}
+
+.course {
+  position: absolute;
+  top: 4.9vh;
+  right: 0px;
+  width: 340px;
+  height: 200px;
+  border-radius: 5px;
+  z-index: 2;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  overflow: hidden;
+}
+
+.course_hid {
+  display: none;
+}
+
+.course_inside {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: var(--main-color);
+}
+
+.course_inside b {
+  padding: 10px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.course_inside b:hover {
+  background-color: var(--main-color);
+  color: white;
+}
+
+/* mini window  */
+
+.option_box {
+  position: fixed;
+  top: -40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+  z-index: 6;
+
+}
+
+.option_box_none {
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+  top: 35%;
+  /* display: flex; */
+
+}

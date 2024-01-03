@@ -1,0 +1,87 @@
+.education_op {
+    position: relative;
+    width: 500px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    padding: 20px;
+}
+
+.ed_box {
+    position: relative;
+}
+
+.error_div {
+    color: red;
+    position: absolute;
+    font-size: 12px;
+    bottom: -18px;
+    left: 2px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    opacity: 0.9;
+}
+
+.ed_form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.ed_box1,
+.ed_box2,
+.ed_box5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.ed_box6 {
+    grid-column-start: 2;
+    /* border: 1px solid red; */
+
+}
+
+.password_eye {
+    position: absolute;
+    top: 4.8vh;
+    right: 15px;
+    cursor: pointer;
+    color: #007fbc;
+}
+
+.btn {
+    width: 100px;
+    font-size: 16px;
+    padding: 8px 10px;
+    margin-left: 100px;
+    font-size: 17px;
+    background-color: rgba(0, 128, 188, 0.719);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+
+
+}
+
+.btn:hover {
+    transform: translate3D(0, -1px, 0) scale(1.1);
+    background-color: #007fbc;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.close_icon {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.invalid_input{
+    background-color: #eeebeb8a;
+    border: 1px solid #eeebeb8a;
+    box-shadow: none;
+}

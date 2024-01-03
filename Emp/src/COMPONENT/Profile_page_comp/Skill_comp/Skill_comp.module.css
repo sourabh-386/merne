@@ -1,0 +1,46 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.inside {
+    border: 2px solid rgba(85, 83, 83, 0.595);
+    background-color: #efefef;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-right: 2vw;
+    padding-right: 10px;
+    transition: all .4s ease;
+
+
+}
+
+.inside b {
+    font-size: 17px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.inside:hover {
+    transform: translate3D(0, -1px, 0) scale(1.1);
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+
+.skills p {
+    padding: 3px 6px;
+    /* background-color: #f8f9fa; */
+    font-size: 17px;
+    /* position: relative; */
+    margin-right: 10px;
+    /* min-width: 50px; */
+
+}

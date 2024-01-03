@@ -1,0 +1,42 @@
+.box {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    /* min-height: 400px; */
+    height: fit-content;
+    padding: 10px;
+    background-color: #f8f8f8;
+    margin-top: 11px;
+    border-radius: 4px;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    /* padding-right: 10px; */
+}
+
+.btn button {
+    padding: 5px 10px;
+    background-color: #007fbc;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+.multi_select{
+    margin-top: 10px;
+    /* display: flex; */
+    margin-bottom: 10px;
+}
+.multi_select div{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-bottom: 5px;
+    opacity: 0.9;
+    font-size: 15px;
+
+}
+.multi_select div input {
+    margin-right: 10px;
+}

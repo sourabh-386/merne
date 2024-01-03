@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.app{
+    /* border: 1px solid black; */
+    position: relative;
+
+}
+.parent {
+    width: 450px;
+    margin: auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 25px;
+    opacity: 0.6;
+}
+
+.uploads{
+    text-align: center;
+    border: 3px dashed rgb(210, 227, 244);
+    padding-top: 10px;
+
+}
+.upload {
+    text-align: center;
+    padding: 1.5rem;
+    position: relative;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.upload p {
+    font-size: 0.87rem;
+    margin-top: 10px;
+    color: #bbcada;
+}
+
+.upload input {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid black; */
+    transition: all 0.4s ease-in-out;
+
+}
+
+.btn {
+    width: 100px;
+    font-size: 16px;
+    padding: 6px 6px;
+    /* margin-left: 100px; */
+    font-size: 17px;
+    /* margin-top: -20px; */
+    /* z-index: 4; */
+    background-color: rgba(0, 128, 188, 0.719);
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+
+
+}
+
+.btn:hover {
+    transform: translate3D(0, -1px, 0) scale(1.05);
+    background-color: #007fbc;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.name {
+    margin-bottom: 5px;
+    margin-top: 2px;
+    transition: all 0.4s ease-in-out;
+    z-index: 20;
+}
+.cross{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}

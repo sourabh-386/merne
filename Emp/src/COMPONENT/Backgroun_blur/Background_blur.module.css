@@ -1,0 +1,15 @@
+.background {
+    width: 100Vw;
+    height: 100vh;
+    background-color: rgba(133, 130, 130, 0.192);
+    position: fixed;
+    z-index: 5;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}

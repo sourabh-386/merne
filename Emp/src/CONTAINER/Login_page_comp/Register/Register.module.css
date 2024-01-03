@@ -1,0 +1,85 @@
+.register {
+    display: grid;
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 75% 25%;
+}
+
+.register div {
+    /* border: 1px solid black; */
+}
+
+.table {
+    border-collapse: separate;
+    /* border-spacing: 30px 20px; */
+}
+
+.next {
+    /* width: 98=7%; */
+    /* border: 1px solid black; */
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
+    margin: 0px 9px 0px 9px;
+
+}
+
+.register_main_inside{
+   width: 100%;
+   /* border: 1px solid black; */
+    height: 220px;
+    /* display: flex; */
+}
+
+/* .register_main_inside div{
+    border: 1px solid green;
+    width: 33.3%;
+} */
+
+.space{
+    /* padding: 20px; */
+   padding-top: 70px;
+    
+}
+.google{
+    /* border-top: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    /* padding-top: 10px; */
+    /* width: 100%; */
+    /* border: 1px solid black;
+    display: flex;
+    justify-content: center; */
+
+
+}
+.new_account{
+    cursor: pointer;
+    color: blue;
+}
+.back_btn{
+    color: var(--main-color);
+    /* color: white; */
+    cursor: pointer;
+    width: fit-content;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.back_btn b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.back_btn b i{
+    margin-top: 1px;
+}

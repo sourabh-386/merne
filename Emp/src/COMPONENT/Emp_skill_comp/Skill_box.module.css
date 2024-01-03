@@ -1,0 +1,159 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.min_div {
+    width: 800px;
+}
+
+.lable {
+    opacity: 0.6;
+}
+
+.skill_box {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    padding: 10px 0px;
+    padding-bottom: 30px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+    margin-top: 10px;
+    overflow: hidden;
+    justify-content: start;
+    /* border-bottom: 2px solid rgba(121, 120, 120, 0.789); */
+    /* margin: 10px; */
+}
+
+.skill_box2 {
+    border-radius: 5px;
+    min-height: 200px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+.outer_add_skill {
+    /* border: 1px solid black; */
+    height: 3.5vh;
+    position: relative;
+    margin: 10px 20px;
+    /* margin-right: 30px; */
+    width: 200px;
+}
+
+.add_skill {
+    padding-right: 30px;
+
+}
+
+.btn_box {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    padding-right: 40px;
+}
+
+/* .btn_box button {
+    background-color: #007fbc;
+    color: White;
+    border: none;
+    padding: 4px 6px;
+    cursor: pointer;
+    border-radius: 4px;
+} */
+
+.cross {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.plus_btn {
+    position: absolute;
+    top: 2vh;
+    right: 10px;
+    width: 20px;
+    /* padding:  0px 5px; */
+    /* background-color: white; */
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.plus_btn:hover {
+    opacity: 1;
+}
+
+
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .3s ease;
+    position: relative;
+    left: 92%;
+    margin-top: -15px;
+
+}
+
+.btn:hover {
+    transform: translate3D(0, -1px, 0) scale(1.1);
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.btn_color {
+    background-color: #ec1d0e;
+    transition: all 0.3s ease-in;
+}
+
+
+/* -------------------------------------------------- */
+/* other work style  */
+.other {
+    position: relative;
+}
+
+.outer_plus_btn {
+    position: absolute;
+    top: 1.2vh;
+    right: 10px;
+    width: 20px;
+    /* padding:  0px 5px; */
+    /* background-color: white; */
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.outer_plus_btn:hover {
+    opacity: 1;
+}
+
+.outer_show {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.outer_show input {
+    background-color: #efefefad;
+}
